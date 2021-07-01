@@ -18,7 +18,7 @@ int main()
     cout<<"Element of A[1] "<<A[1]<<endl;
     printf("%d\n",A[2]);
 
-     Structure*/ ----------------------------------------------------------
+    //  Structure*/ ----------------------------------------------------------
 
         struct Rectangle
         {
@@ -48,7 +48,7 @@ int main()
 
         cout<<"Student name is "<<rana.name<<endl;
 
-        Pointer-----------------------------------------------------------------------------
+        // Pointer-----------------------------------------------------------------------------
 
         int a=10;
         int *p;
@@ -73,7 +73,7 @@ int main()
         cout<<p[i]<<endl;
         delete [] p;
         free(p); 
-reference----------------------------------------------
+// reference----------------------------------------------
 int a= 10;
 int &r=a;
 int b=90;
@@ -94,7 +94,7 @@ p->length =30;
 p->bredth=5;
 cout<<"length is  "<<p->length<<endl<<"bredth is "<<p->bredth<<endl<<"Area of Rectangle is "<<p->length*p->bredth<<endl;
 
-Fuction-----------------------------------------------------
+// Fuction-----------------------------------------------------
 int add(int a,int b)
 {
     int c;
@@ -108,7 +108,7 @@ int main()
     y=144;
     z=add(x,y);
     cout<<"Sum is "<<z<<endl;
-Parameter passing-------------------------------------------pASS BY VALUE-------------------
+// Parameter passing-------------------------------------------pASS BY VALUE-------------------
 void Swap(int a,int b)
 {
     int temp;
@@ -124,7 +124,7 @@ int main()
     Swap(x,y);
 // cout<<"value of x "<<x<<endl<<"Value of y "<<y;
 printf("%d %d",x,y);
-    CALL BY ADDRESS------------------------------------------------------------------
+    // CALL BY ADDRESS------------------------------------------------------------------
     void Swap(int *a,int *b)
 {
     int temp;
@@ -142,7 +142,7 @@ int main()
 printf("%d %d",x,y);
 
 
- CALL BY Reference---------------------------------------------------------------
+//  CALL BY Reference---------------------------------------------------------------
 
 void Swap(int &a,int &b)
 {
@@ -159,8 +159,7 @@ int main()
     Swap(x,y);
 // cout<<"value of x "<<x<<endl<<"Value of y "<<y;
 printf("%d %d",x,y);
-
-ARRAY as parameter----------------------------------------
+// ARRAY as parameter----------------------------------------
 int * fun(int size)
 {
     int *p;
@@ -182,7 +181,7 @@ int main()
     {
         cout<<ptr[i]<<endl;
     }
-Structure  as parameter------CAll by value----------------------------------
+// Structure  as parameter------CAll by value----------------------------------
 struct Rectangle 
 {
     int length;
@@ -218,7 +217,7 @@ int main()
     ChangeLength(&r,20);
    
 }
-Structure and Function-----------------------------------------------------------
+// Structure and Function-----------------------------------------------------------
 struct Rectangle
 {
     int length;
@@ -247,7 +246,7 @@ int main()
     cout<<"After Changed Length Area is "<<Area(r)<<endl;
     return 0;
 }
-cLASS AND Constructor-----------------------------------------------
+// cLASS AND Constructor-----------------------------------------------
 class Rectangle
 {
     private:
@@ -278,7 +277,7 @@ int main()
     cout<<"Area after changed length "<<r.Area()<<endl;
     return 0;
 }
-Monolithic programming--------------------------------------------------------
+// Monolithic programming--------------------------------------------------------
 int main()
 {
     int length=0,breadth=0;
@@ -290,7 +289,7 @@ int main()
 
     cout<<"Area is "<<area<<endl<<"Perimeter is "<<peri<<endl;
 }
-Modular programming--------------------------------------------------
+// Modular programming--------------------------------------------------
 int area(int length,int breadth)
 {
     return(length*breadth);
@@ -310,7 +309,7 @@ int main()
 
     cout<<"Area is "<<a<<endl<<"Perimeter is "<<peri<<endl;
 }
-structure and function------------------------------------------------------
+// structure and function------------------------------------------------------
 struct Rectangle
 {
     int length;
